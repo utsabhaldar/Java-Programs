@@ -1,17 +1,25 @@
-import java.util.Scanner;
+// if else conditional statements
 
 public class ifelse {
     public static void main(String[] args){
 
-        System.out.println("Enter your age: ");
-        Scanner sc = new Scanner(System.in);
-        int age = sc.nextInt();
-        System.out.println(age);
+        // if(1st condition){
+        //     do task 1;
+        // }
+        // else if(2nd condition){
+        //     do task 2;
+        // }
+        // else{
+        //     do task 3;
+        // }
 
-        if(age>=18)
-        System.out.println("You can vote");
-        else
-        System.out.println("You should be at least 18 to vote");
-    
+        int fish_size = 20;
+
+        if(fish_size<10){
+            System.out.println("catch");
+        }
+        else{
+            System.out.println("do not catch");
+        }
     }
 }
